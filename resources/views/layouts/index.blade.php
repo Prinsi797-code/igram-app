@@ -91,7 +91,7 @@
         }
 
         .main-content {
-            background: #f5f5f5;
+            background: #ffffff;
             min-height: calc(100vh - 200px);
             padding: 40px 20px;
         }

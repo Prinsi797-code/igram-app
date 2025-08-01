@@ -7,10 +7,13 @@
         <p>Download Video, Reels, Photo, IGTV, carousel from Instagram</p>
     </div>
     <div class="main-content">
-        <h4>Contact us</h4>
-        <p>Are you interested in learning further details about the ways in which our assistance can benefit you? Feel free
+        <h3 style="text-align:center;font-size: 30px;">Contact us</h3>
+
+        <p style="margin-top: 30px;">Are you interested in learning further details about the ways in which our assistance
+            can benefit
+            you? Feel free
             to reach out to us without any hesitation.</p>
 
-        <p>Contact us by email: contact@igram.world</p>
+        <p style="margin-top: 20px;">Contact us by email: tilvaprinsi123@gmail.com</p>
     </div>
 @endsection
