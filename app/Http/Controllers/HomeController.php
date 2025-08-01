@@ -28,7 +28,7 @@ class HomeController extends Controller
 
         try {
             // Call your existing API
-            $apiUrl = "http://localhost/instagram-video/profile.php?username=" . urlencode($username);
+            $apiUrl = "http://localhost/instagram/profile.php?username=" . urlencode($username);
             $response = Http::timeout(30)->get($apiUrl);
 
             if (!$response->successful()) {
