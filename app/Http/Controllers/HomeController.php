@@ -163,4 +163,9 @@ class HomeController extends Controller
         ];
         return $extensions[$contentType] ?? 'jpg';
     }
+
+    public function Contact(Request $request)
+    {
+        return view('contact');
+    }
 }

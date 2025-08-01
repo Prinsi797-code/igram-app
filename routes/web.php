@@ -30,6 +30,8 @@ Route::prefix('api')->group(function () {
 
 });
 
+Route::get('/contact', [HomeController::class, 'Contact'])->name('contact');
+
 // Alternative routes (if you prefer different URL structure)
 // Route::group(['prefix' => 'instagram'], function () {
 //     Route::get('/', [InstagramController::class, 'index']);
